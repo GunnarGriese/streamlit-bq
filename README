@@ -1,0 +1,2 @@
+gcloud builds submit --tag gcr.io/nlp-api-test-260216/streamlit-test  --project=nlp-api-test-260216
+gcloud run deploy --image gcr.io/nlp-api-test-260216/streamlit-test --platform managed  --project=nlp-api-test-260216 --allow-unauthenticated
